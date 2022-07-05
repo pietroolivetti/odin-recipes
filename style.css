@@ -10,3 +10,12 @@ h1 {text-align: center;}
     margin-bottom: 1.5em;
     font-style: italic;
   }
+ 
+ 
+  .manImg {
+    display: none;
+  }
+  .hover-text:hover ~ .manImg {
+    display: block; margin: 0px 0px 0px 0px; transition-delay: 1s;
+  }
+  a:hover {color: chocolate;}
